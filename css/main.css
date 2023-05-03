@@ -56,7 +56,7 @@ a {
   padding: 15px;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 30%;
+  padding-bottom: 20%;
 
 }
 /* .inicio img{
@@ -233,7 +233,7 @@ body {
 .imagenes_ini{
 display: flex;
 justify-content: space-between;
-max-width: ;
+/* max-width: ; */
 
 }
 .cualidades ul li{
@@ -258,6 +258,11 @@ max-width: ;
 .insta {
   font-size: 1.25em;
 }
+}
+@media (max-width: 372px){
+  .insta {
+    font-size: 1.2em;
+  }
 .datos h3{
   font-size: 1.2em;
   padding-bottom: 15px;
