@@ -56,7 +56,7 @@ a {
   padding: 15px;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
 
 }
 /* .inicio img{
@@ -257,6 +257,10 @@ max-width: ;
 @media (max-width: 387px){
 .insta {
   font-size: 1.25em;
+}
+.datos h3{
+  font-size: 1.2em;
+  padding-bottom: 15px;
 }
   
 }
