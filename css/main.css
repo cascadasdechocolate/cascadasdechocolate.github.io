@@ -56,7 +56,7 @@ a {
   padding: 15px;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 35%;
+  padding-bottom: 40%;
 
 }
 /* .inicio img{
@@ -264,7 +264,7 @@ justify-content: space-between;
     font-size: 1.24em;
   }
 .datos h3{
-  font-size: 1.25em;
+  font-size: 1.23em;
   padding-bottom: 15px;
 }
   
