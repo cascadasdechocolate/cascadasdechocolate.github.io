@@ -135,8 +135,8 @@ footer{
 
 
 img, picture, video, iframe, figure {
-  max-width: 80%;
-  width: 80%;
+  /* max-width: 80%; */
+  width: 100%;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;

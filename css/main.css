@@ -56,17 +56,22 @@ a {
   padding: 15px;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 20%;
 
 }
-.inicio img{
-  max-width: 100%;
+/* .inicio img{
+   max-width: 100%; 
   width: auto;
- 
-}
+} */
 .slogan{
 display: flex;
 flex-direction: column;  
+}
+.imagenes_ini{
 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .ofrecimientos{
   display: flex;
@@ -216,15 +221,21 @@ body {
   .movil{
     display: none;
   }
-  .inicio{
+  /* .inicio{
     background-image: url("/img/portadaPc.jpg");
     background-size: cover;
     height: 1000px;
-  }
-  .inicio .slogan{
+  } */
+  /* .inicio .slogan{
     margin-bottom: -480px;
 
-  }
+  } */
+.imagenes_ini{
+display: flex;
+justify-content: space-between;
+max-width: ;
+
+}
 .cualidades ul li{
     font-size: 5vh;
   }
@@ -241,4 +252,11 @@ body {
 
 }
 
+}
+
+@media (max-width: 387px){
+.insta {
+  font-size: 1.25em;
+}
+  
 }
