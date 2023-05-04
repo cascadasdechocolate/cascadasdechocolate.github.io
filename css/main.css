@@ -42,7 +42,7 @@ a {
 .inicio{
   width: 100%; 
   /* background-image: url("/img/PORTADA.jpeg"); */
-  background-color: #000000;
+  background-color: #ffffff;
   /* background-size: cover;  */
   /* background-size: 400px 380px; */
   /* background-position: center top;  */
@@ -53,7 +53,7 @@ a {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content:center;
-  padding: 15px;
+  /* padding: 15px; */
   align-items: center;
   flex-direction: column;
   padding-bottom: 40%;
@@ -235,6 +235,9 @@ display: flex;
 justify-content: space-between;
 /* max-width: ; */
 
+}
+.imagenes_ini, img{
+  margin-top: 0;
 }
 .cualidades ul li{
     font-size: 5vh;
